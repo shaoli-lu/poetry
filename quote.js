@@ -7,7 +7,7 @@ getQuote();
 
 function getQuote() {
     text="";
-    fetch("https://poetrydb.org/random/1").then(response => response.json()).then(data => {
+    fetch("https://poetrydb.org/author,random/e;1").then(response => response.json()).then(data => {
     
 		document.querySelector('#title').innerHTML = " " + data[0].title;    
        

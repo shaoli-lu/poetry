@@ -99,3 +99,12 @@ input:focus {
 ul {
     font-weight: bold ;
 }
+
+
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    color: #999;
+    font-size: .9rem;
+  }
+  
