@@ -16,7 +16,7 @@ function getQuote() {
       
         data[0].lines.forEach(myFunction);
        
-        document.querySelector('#quote').innerHTML = '"' + text  + '"' ;  
+        document.querySelector('#quote').innerHTML = text;  
             
     })  
 }
